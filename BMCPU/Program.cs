@@ -29,7 +29,7 @@ namespace BMCPU
 
         public Disk()
         {
-            this.Program = File.ReadAllBytes("E:\\Nextcloud\\Programming\\BMCPU\\Disks\\program.disk");
+            this.Program = File.ReadAllBytes("");
         }
         public void DebugDisk()
         {
